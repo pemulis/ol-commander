@@ -26,7 +26,7 @@ for attempt in range(5):
     except:
         print 'ol.login() error; retrying'
 if not logged_in:
-    sys.exit('Failed to log in.')
+  print 'Failed to log in.'
 
 # Define a command interpreter class, to get user input.
 class OpenLibraryCommander(cmd.Cmd):
